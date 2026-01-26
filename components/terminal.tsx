@@ -3,9 +3,12 @@
 import { useState, useEffect } from 'react'
 
 const TEMPLATES = [
-  'user {user} paid {currency} for DEX .',
-  'user {user} resized a photo for avatar upload.',
-]
+    "user {user} paid {currency} for DEX .",
+    "user {user} resized a photo for icon upload.",
+    "user {user} resized a photo for banner upload.",
+    "user {user} interacted with the bot",
+    "user {user} hasn't completed payment yet",
+];
 
 function generateUsername() {
   const prefixes = ['alpha', 'neo', 'moon', 'star', 'crypto', 'block', 'degen', 'oracle', 'flux', 'zephyr', 'nova', 'pixel', 'vault']
@@ -94,12 +97,12 @@ export default function Terminal() {
             <div className="w-3 h-3 rounded-full bg-yellow-500" />
             <div className="w-3 h-3 rounded-full bg-green-500" />
           </div>
-          <span className="text-xs text-muted-foreground ml-2">dexpay-live-updates</span>
+          <span className="text-xs text-muted-foreground ml-2">dexbot-live-updates</span>
         </div>
 
         {/* Terminal Content */}
         <div className="bg-card px-4 py-4 font-mono text-sm">
-          <div className="text-muted-foreground mb-3">$ dexpay --live-feed</div>
+          <div className="text-muted-foreground mb-3">$ dexbot --live-feed</div>
           <div className="space-y-2">
             <div className="text-accent">
               <span className="text-green-500">✓</span> Connected to transaction stream...

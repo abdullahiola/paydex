@@ -9,7 +9,7 @@ const features = [
   {
     icon: Zap,
     title: 'Lightning Fast',
-    description: 'Execute trades in seconds with optimized gas fees and instant confirmations.'
+    description: 'Pay Dex in seconds with zero gas fees and instant confirmations.'
   },
   {
     icon: Clock,

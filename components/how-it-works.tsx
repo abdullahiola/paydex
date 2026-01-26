@@ -4,27 +4,35 @@ import { useState } from 'react'
 import { ChevronDown } from 'lucide-react'
 
 const steps = [
-  {
-    number: '01',
-    title: 'Open Telegram',
-    description: 'Start a chat with the dexpay bot on Telegram. No downloads, no wallets to manage.'
-  },
-  {
-    number: '02',
-    title: 'Connect Wallet',
-    description: 'Securely connect your wallet in one click. Your keys stay completely safe.'
-  },
-  {
-    number: '03',
-    title: 'Choose Your Trade',
-    description: 'Browse DEX tokens and specify your trade amount with clear pricing.'
-  },
-  {
-    number: '04',
-    title: 'Confirm & Done',
-    description: 'Review the details and execute. Transaction confirmed in seconds.'
-  },
-]
+    {
+        number: "01",
+        title: "Open Telegram",
+        description:
+            "Start a chat with the Dexpay bot on Telegram. No downloads, no wallets to manage.",
+    },
+    {
+        number: "02",
+        title: "Select Chain",
+        description: "Select the blockchain and enter the CA",
+    },
+    {
+        number: "03",
+        title: "Enter Token Info",
+        description: "Add Basic details, Description and socials for the token",
+    },
+    {
+        number: "04",
+        title: "Upload Icon & Banner",
+        description:
+            "Icon & Banner gets automatically Resized",
+    },
+    {
+        number: "05",
+        title: "Confirm & Done",
+        description:
+            "Review the order and prepare for Dex payment. Transaction confirmed in seconds.",
+    },
+];
 
 export default function HowItWorks() {
   const [expanded, setExpanded] = useState(0)
