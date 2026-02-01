@@ -4,34 +4,34 @@ import { useState } from 'react'
 import { ChevronDown } from 'lucide-react'
 
 const steps = [
-    {
-        number: "01",
-        title: "Open Telegram",
-        description:
-            "Start a chat with the Dexpay bot on Telegram. No downloads, no wallets to manage.",
-    },
-    {
-        number: "02",
-        title: "Select Chain",
-        description: "Select the blockchain and enter the CA",
-    },
-    {
-        number: "03",
-        title: "Enter Token Info",
-        description: "Add Basic details, Description and socials for the token",
-    },
-    {
-        number: "04",
-        title: "Upload Icon & Banner",
-        description:
-            "Icon & Banner gets automatically Resized",
-    },
-    {
-        number: "05",
-        title: "Confirm & Done",
-        description:
-            "Review the order and prepare for Dex payment. Transaction confirmed in seconds.",
-    },
+  {
+    number: "01",
+    title: "Open Telegram",
+    description:
+      "Start a chat with the PayDex bot on Telegram. No downloads, no wallets to manage.",
+  },
+  {
+    number: "02",
+    title: "Select Chain",
+    description: "Select the blockchain and enter the CA",
+  },
+  {
+    number: "03",
+    title: "Enter Token Info",
+    description: "Add Basic details, Description and socials for the token",
+  },
+  {
+    number: "04",
+    title: "Upload Icon & Banner",
+    description:
+      "Icon & Banner gets automatically Resized",
+  },
+  {
+    number: "05",
+    title: "Confirm & Done",
+    description:
+      "Review the order and prepare for Dex payment. Transaction confirmed in seconds.",
+  },
 ];
 
 export default function HowItWorks() {
@@ -60,17 +60,15 @@ export default function HowItWorks() {
                     <div className="text-4xl font-bold text-accent/30">{step.number}</div>
                     <div>
                       <h3 className="text-2xl font-semibold text-white">{step.title}</h3>
-                      <p className={`mt-1 text-muted-foreground transition-all overflow-hidden ${
-                        expanded === idx ? 'max-h-20' : 'max-h-0'
-                      }`}>
+                      <p className={`mt-1 text-muted-foreground transition-all overflow-hidden ${expanded === idx ? 'max-h-20' : 'max-h-0'
+                        }`}>
                         {step.description}
                       </p>
                     </div>
                   </div>
                   <ChevronDown
-                    className={`h-6 w-6 text-accent transition-transform ${
-                      expanded === idx ? 'rotate-180' : ''
-                    }`}
+                    className={`h-6 w-6 text-accent transition-transform ${expanded === idx ? 'rotate-180' : ''
+                      }`}
                   />
                 </div>
               </div>

@@ -8,7 +8,7 @@ const _geist = Geist({ subsets: ["latin"] });
 const _geistMono = Geist_Mono({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: 'dexpay - Pay for DEX Without Hassle',
+  title: 'PayDex - Pay for DEX Without Hassle',
   description: 'Seamless DEX payments via Telegram. Secure, fast, and effortless cryptocurrency transactions.',
   generator: 'v0.app',
   icons: {

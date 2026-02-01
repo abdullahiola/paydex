@@ -12,8 +12,8 @@ export default function Hero() {
           75% { transform: translateY(-15px) rotate(-2deg); }
         }
         @keyframes pulse-glow {
-          0%, 100% { filter: drop-shadow(0 0 20px rgba(107, 140, 206, 0.4)); }
-          50% { filter: drop-shadow(0 0 40px rgba(107, 140, 206, 0.8)); }
+          0%, 100% { filter: drop-shadow(0 0 20px rgba(34, 211, 238, 0.4)); }
+          50% { filter: drop-shadow(0 0 40px rgba(34, 211, 238, 0.8)); }
         }
         .logo-float {
           animation: float 6s ease-in-out infinite;
@@ -26,17 +26,17 @@ export default function Hero() {
         }
       `}</style>
       <div className="absolute inset-0 bg-gradient-to-b from-accent/5 to-transparent" />
-      
+
       <div className="mx-auto max-w-7xl px-4 py-20 sm:px-6 lg:px-8 relative z-10">
         <div className="grid items-center gap-12 lg:grid-cols-2">
           {/* Left side - Logo and Terminal */}
           <div className="flex flex-col items-center lg:items-start">
             <div className="logo-container relative cursor-pointer group">
-              <div className="absolute inset-0 bg-gradient-to-r from-accent/20 to-blue-600/20 rounded-3xl blur-3xl group-hover:blur-2xl group-hover:from-accent/40 group-hover:to-blue-600/40 transition-all duration-300" />
+              <div className="absolute inset-0 bg-gradient-to-r from-cyan-400/20 to-emerald-400/20 rounded-3xl blur-3xl group-hover:blur-2xl group-hover:from-cyan-400/40 group-hover:to-emerald-400/40 transition-all duration-300" />
               <div className="logo-float logo-glow relative">
                 <Image
-                  src="/dexpay-logo.jpg"
-                  alt="dexpay mascot"
+                  src="/pd.png"
+                  alt="PayDex logo"
                   width={400}
                   height={400}
                   className="relative h-96 w-96 drop-shadow-2xl transition-transform duration-300 group-hover:scale-110"
@@ -58,13 +58,13 @@ export default function Hero() {
 
             <h1 className="text-5xl font-bold leading-tight text-white sm:text-6xl lg:text-7xl">
               Pay for DEX{' '}
-              <span className="text-transparent bg-clip-text bg-gradient-to-r from-accent to-blue-400">
+              <span className="text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-emerald-400">
                 Without Hassle
               </span>
             </h1>
 
             <p className="text-xl text-muted-foreground leading-relaxed max-w-lg">
-              Dexpay handles all the complexity so you can focus on what matters – your trades.
+              PayDex handles all the complexity so you can focus on what matters – your trades.
             </p>
 
             <div className="flex flex-col gap-4 sm:flex-row">

@@ -28,7 +28,7 @@ export default function Features() {
     <section id="features" className="py-20 sm:py-32">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
-          <h2 className="text-4xl font-bold text-white sm:text-5xl">Why Choose Dexpay?</h2>
+          <h2 className="text-4xl font-bold text-white sm:text-5xl">Why Choose PayDex?</h2>
           <p className="mt-4 text-xl text-muted-foreground">
             Everything you need for frictionless DEX payment.
           </p>

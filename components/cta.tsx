@@ -4,12 +4,12 @@ export default function CTA() {
       <div className="mx-auto max-w-4xl px-4 sm:px-6 lg:px-8">
         <div className="relative rounded-3xl border border-accent/30 bg-gradient-to-br from-card via-card/50 to-accent/5 p-12 sm:p-16 text-center">
           <div className="absolute inset-0 bg-gradient-to-r from-accent/10 to-blue-600/10 rounded-3xl blur-3xl -z-10" />
-          
+
           <h2 className="text-4xl font-bold text-white sm:text-5xl mb-4">
             Ready To Pay Dex Faster?
           </h2>
           <p className="text-xl text-muted-foreground mb-8 max-w-2xl mx-auto">
-            Join thousands of traders using Dexpay for seamless DEX Payments. No complications, no delays.
+            Join thousands of traders using PayDex for seamless DEX Payments. No complications, no delays.
           </p>
 
           <div className="flex flex-col gap-4 sm:flex-row justify-center">

@@ -9,7 +9,7 @@ export default function Footer() {
         <div className="grid grid-cols-1 gap-8 sm:grid-cols-3 mb-12">
           {/* Brand */}
           <div>
-            <h3 className="text-lg font-bold text-white mb-4">Dexpay</h3>
+            <h3 className="text-lg font-bold text-white mb-4">PayDex</h3>
             <p className="text-muted-foreground">
               Simplifying DEX payments for traders worldwide.
             </p>
@@ -45,9 +45,9 @@ export default function Footer() {
                 <MessageCircle className="h-5 w-5" />
                 Telegram Support
               </a>
-              <a href="mailto:support@dexpay.io" className="text-muted-foreground hover:text-foreground transition-colors flex items-center gap-2">
+              <a href="mailto:support@paydex.io" className="text-muted-foreground hover:text-foreground transition-colors flex items-center gap-2">
                 <Mail className="h-5 w-5" />
-                support@dexpay.io
+                support@paydex.io
               </a>
             </div>
           </div>
@@ -56,7 +56,7 @@ export default function Footer() {
         <div className="border-t border-border pt-8">
           <div className="flex flex-col items-center justify-between gap-4 sm:flex-row">
             <p className="text-sm text-muted-foreground">
-              © {currentYear} Dexpay. All rights reserved.
+              © {currentYear} PayDex. All rights reserved.
             </p>
             <div className="flex gap-6">
               <a href="#" className="text-sm text-muted-foreground hover:text-foreground transition-colors">
